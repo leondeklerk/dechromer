@@ -1,0 +1,13 @@
+{
+    "name": "dechromer",
+    "description": "Reroutes links opened in a chromium based browser to your default browser",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs",
+        "nativeMessaging"
+    ]
+}

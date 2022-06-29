@@ -1,0 +1,2 @@
+REG ADD "HKCU\Software\Google\Chrome\NativeMessagingHosts\com.leondeklerk.dechromer" /ve /t REG_SZ /d "%~dp0manifest.json" /f
+REG ADD "HKCU\Software\Microsoft\Edge\NativeMessagingHosts\com.leondeklerk.dechromer" /ve /t REG_SZ /d "%~dp0manifest.json" /f

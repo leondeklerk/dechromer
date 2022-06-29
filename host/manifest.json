@@ -1,0 +1,8 @@
+{
+    "name": "com.leondeklerk.dechromer",
+    "description": "Python script for handling web extension native messages, opens received url in the users default browser",
+    "path": "dechromer.bat",
+    "type": "stdio",
+    "allowed_origins": ["chrome-extension://YOUR_EXTENSION_ID/"]
+    
+}
